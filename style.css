@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 80vw;
+    width: 70vw;
+    background-color: rgb(246, 246, 246);
+    padding: 15px 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.input_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input_one {
+    width: 28%;
+    ;
+}
+
+.input_two {
+    width: 23%;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    width: 18%;
+}
+
+.input_box {
+    padding: 7px;
+    font-size: 1rem;
+}
+
+.input_select {
+    padding: 8px 5px;
+    width: 23%;
+}
+
+.input_select option {
+    padding: 7px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+.name {
+    width: 150px;
+    text-align: center;
+}
+
+.priority {
+    width: 150px;
+    text-align: center;
+}
+
+.item_box {
+    display: flex;
+    height: 50px;
+    min-height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 99%;
+    border-radius: 10px;
+}
+
+.complete_box {
+    display: flex;
+    height: 50px;
+    min-height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.empty_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 60px;
+    width: 90%;
+    margin: 4px;
+}
